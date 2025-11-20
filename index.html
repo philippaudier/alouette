@@ -42,13 +42,23 @@
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path d="M16 2L4 10V28H12V20H20V28H28V10L16 2Z" fill="currentColor" />
                 </svg>
-                <span>Mon Appartement</span>
+                <span data-i18n="nav.brand">Mon Appartement</span>
             </div>
             <div class="nav-links">
-                <a href="#gallery">Photos</a>
-                <a href="#details">Détails</a>
-                <a href="#amenities">Équipements</a>
-                <a href="#booking">Réserver</a>
+                <a href="#gallery" data-i18n="nav.photos">Photos</a>
+                <a href="#details" data-i18n="nav.details">Détails</a>
+                <a href="#amenities" data-i18n="nav.amenities">Équipements</a>
+                <a href="#booking" data-i18n="nav.booking">Réserver</a>
+
+                <!-- Language Switcher -->
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="fr" onclick="switchLanguage('fr')" title="Français">
+                        🇫🇷
+                    </button>
+                    <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')" title="English">
+                        🇬🇧
+                    </button>
+                </div>
             </div>
         </div>
     </nav>

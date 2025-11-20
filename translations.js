@@ -1,0 +1,225 @@
+// Translations
+const translations = {
+    fr: {
+        // Hero
+        'hero.title': 'Votre Refuge Urbain',
+        'hero.subtitle': 'Un appartement moderne et chaleureux pour vos moments précieux',
+        'hero.cta': 'Réserver maintenant',
+
+        // Navigation
+        'nav.brand': 'Mon Appartement',
+        'nav.photos': 'Photos',
+        'nav.details': 'Détails',
+        'nav.amenities': 'Équipements',
+        'nav.booking': 'Réserver',
+
+        // Gallery
+        'gallery.title': 'Découvrez l\'Appartement',
+        'gallery.subtitle': 'Un espace pensé pour votre confort',
+        'gallery.view': 'Voir en grand',
+
+        // Details
+        'details.title': 'Un Espace Unique',
+        'details.desc1': 'Bienvenue dans notre appartement lumineux et moderne, idéalement situé pour profiter de la ville tout en bénéficiant d\'un havre de paix. Cet espace a été pensé pour accueillir famille et amis dans un cadre chaleureux et confortable.',
+        'details.desc2': 'Avec ses grandes fenêtres offrant une lumière naturelle exceptionnelle, son design scandinave épuré et ses équipements de qualité, vous vous sentirez comme chez vous dès votre arrivée.',
+        'details.surface': 'Surface',
+        'details.bedrooms': 'Chambres',
+        'details.guests': 'Jusqu\'à 4 personnes',
+        'details.checkin': 'Check-in flexible',
+        'details.checkin.time': 'À partir de 15h',
+        'details.floor': '3ème étage',
+        'details.elevator': 'Avec ascenseur',
+        'details.price.period': '/ nuit',
+        'details.new': 'Nouveau',
+        'details.longstay': '✓ Tarif dégressif pour séjours longs',
+        'details.cancellation': '✓ Annulation flexible',
+        'details.payment': '✓ Paiement sécurisé Revolut',
+        'details.cta': 'Vérifier les disponibilités',
+
+        // Amenities
+        'amenities.title': 'Équipements & Services',
+        'amenities.subtitle': 'Tout le confort pour un séjour parfait',
+        'amenities.wifi.title': 'WiFi Haut Débit',
+        'amenities.wifi.desc': 'Connexion fibre optique pour travailler ou streamer',
+        'amenities.kitchen.title': 'Cuisine Équipée',
+        'amenities.kitchen.desc': 'Four, plaques, réfrigérateur, lave-vaisselle',
+        'amenities.ac.title': 'Climatisation',
+        'amenities.ac.desc': 'Contrôle de température dans toutes les pièces',
+        'amenities.tv.title': 'Smart TV',
+        'amenities.tv.desc': 'Netflix, Prime Video et autres plateformes',
+        'amenities.washer.title': 'Lave-linge',
+        'amenities.washer.desc': 'Pour vos séjours de longue durée',
+        'amenities.parking.title': 'Parking Privé',
+        'amenities.parking.desc': 'Place de parking sécurisée incluse',
+
+        // Booking
+        'booking.title': 'Réservez Votre Séjour',
+        'booking.subtitle': 'Simple, rapide et sécurisé',
+        'booking.checkin': 'Date d\'arrivée',
+        'booking.checkout': 'Date de départ',
+        'booking.guests': 'Nombre de personnes',
+        'booking.guests.select': 'Sélectionnez...',
+        'booking.guests.1': '1 personne',
+        'booking.guests.2': '2 personnes',
+        'booking.guests.3': '3 personnes',
+        'booking.guests.4': '4 personnes',
+        'booking.name': 'Nom complet',
+        'booking.name.placeholder': 'Jean Dupont',
+        'booking.email': 'Email',
+        'booking.email.placeholder': 'jean.dupont@email.com',
+        'booking.phone': 'Téléphone',
+        'booking.phone.placeholder': '+33 6 12 34 56 78',
+        'booking.message': 'Message (optionnel)',
+        'booking.message.placeholder': 'Parlez-nous de votre séjour...',
+        'booking.nights': 'nuits',
+        'booking.cleaning': 'Frais de ménage',
+        'booking.total': 'Total',
+        'booking.cta': 'Procéder au paiement',
+
+        // Payment Info
+        'info.secure.title': '💳 Paiement Sécurisé',
+        'info.secure.desc': 'Vos paiements sont sécurisés par Revolut, une plateforme bancaire de confiance utilisée par des millions de personnes.',
+        'info.privacy.title': '🔒 Vos Données Protégées',
+        'info.privacy.desc': 'Nous ne stockons aucune information bancaire. Toutes les transactions sont cryptées de bout en bout.',
+        'info.cancel.title': '📅 Annulation Flexible',
+        'info.cancel.desc': 'Annulation gratuite jusqu\'à 7 jours avant votre arrivée. Remboursement intégral garanti.',
+        'info.support.title': '💬 Support Disponible',
+        'info.support.desc': 'Une question ? Nous sommes là pour vous aider à tout moment avant et pendant votre séjour.',
+
+        // Payment Modal
+        'modal.title': 'Finaliser le Paiement',
+        'modal.amount': 'Montant total:',
+        'modal.summary': 'Récapitulatif de votre réservation',
+        'modal.dates': 'Dates:',
+        'modal.duration': 'Durée:',
+        'modal.guests': 'Personnes:',
+        'modal.name': 'Nom:',
+        'modal.payment.title': 'Choisissez votre méthode de paiement',
+        'modal.revolut.title': 'Revolut.Me',
+        'modal.revolut.desc': 'Paiement instantané via lien Revolut',
+        'modal.transfer.title': 'Virement Bancaire',
+        'modal.transfer.desc': 'Transfert direct sur compte Revolut',
+        'modal.cta': 'Payer maintenant',
+
+        // Footer
+        'footer.about.title': 'À Propos',
+        'footer.about.desc': 'Un appartement familial mis en location pour partager des moments précieux avec vos proches.',
+        'footer.contact.title': 'Contact',
+        'footer.info.title': 'Informations',
+        'footer.terms': 'Conditions générales',
+        'footer.privacy': 'Politique de confidentialité',
+        'footer.rights': '© 2025 Mon Appartement. Tous droits réservés.'
+    },
+    en: {
+        // Hero
+        'hero.title': 'Your Urban Retreat',
+        'hero.subtitle': 'A modern and cozy apartment for your precious moments',
+        'hero.cta': 'Book Now',
+
+        // Navigation
+        'nav.brand': 'My Apartment',
+        'nav.photos': 'Photos',
+        'nav.details': 'Details',
+        'nav.amenities': 'Amenities',
+        'nav.booking': 'Book',
+
+        // Gallery
+        'gallery.title': 'Discover the Apartment',
+        'gallery.subtitle': 'A space designed for your comfort',
+        'gallery.view': 'View Full Size',
+
+        // Details
+        'details.title': 'A Unique Space',
+        'details.desc1': 'Welcome to our bright and modern apartment, ideally located to enjoy the city while benefiting from a haven of peace. This space has been designed to welcome family and friends in a warm and comfortable setting.',
+        'details.desc2': 'With its large windows offering exceptional natural light, its sleek Scandinavian design and quality equipment, you will feel at home from your arrival.',
+        'details.surface': 'Area',
+        'details.bedrooms': 'Bedrooms',
+        'details.guests': 'Up to 4 guests',
+        'details.checkin': 'Flexible Check-in',
+        'details.checkin.time': 'From 3 PM',
+        'details.floor': '3rd Floor',
+        'details.elevator': 'With Elevator',
+        'details.price.period': '/ night',
+        'details.new': 'New',
+        'details.longstay': '✓ Discounted rate for long stays',
+        'details.cancellation': '✓ Flexible cancellation',
+        'details.payment': '✓ Secure Revolut payment',
+        'details.cta': 'Check Availability',
+
+        // Amenities
+        'amenities.title': 'Amenities & Services',
+        'amenities.subtitle': 'All the comfort for a perfect stay',
+        'amenities.wifi.title': 'High-Speed WiFi',
+        'amenities.wifi.desc': 'Fiber optic connection for work or streaming',
+        'amenities.kitchen.title': 'Equipped Kitchen',
+        'amenities.kitchen.desc': 'Oven, stove, refrigerator, dishwasher',
+        'amenities.ac.title': 'Air Conditioning',
+        'amenities.ac.desc': 'Temperature control in all rooms',
+        'amenities.tv.title': 'Smart TV',
+        'amenities.tv.desc': 'Netflix, Prime Video and other platforms',
+        'amenities.washer.title': 'Washing Machine',
+        'amenities.washer.desc': 'For your long-term stays',
+        'amenities.parking.title': 'Private Parking',
+        'amenities.parking.desc': 'Secure parking space included',
+
+        // Booking
+        'booking.title': 'Book Your Stay',
+        'booking.subtitle': 'Simple, fast and secure',
+        'booking.checkin': 'Check-in Date',
+        'booking.checkout': 'Check-out Date',
+        'booking.guests': 'Number of Guests',
+        'booking.guests.select': 'Select...',
+        'booking.guests.1': '1 guest',
+        'booking.guests.2': '2 guests',
+        'booking.guests.3': '3 guests',
+        'booking.guests.4': '4 guests',
+        'booking.name': 'Full Name',
+        'booking.name.placeholder': 'John Doe',
+        'booking.email': 'Email',
+        'booking.email.placeholder': 'john.doe@email.com',
+        'booking.phone': 'Phone',
+        'booking.phone.placeholder': '+1 234 567 8900',
+        'booking.message': 'Message (optional)',
+        'booking.message.placeholder': 'Tell us about your stay...',
+        'booking.nights': 'nights',
+        'booking.cleaning': 'Cleaning Fee',
+        'booking.total': 'Total',
+        'booking.cta': 'Proceed to Payment',
+
+        // Payment Info
+        'info.secure.title': '💳 Secure Payment',
+        'info.secure.desc': 'Your payments are secured by Revolut, a trusted banking platform used by millions of people.',
+        'info.privacy.title': '🔒 Your Data Protected',
+        'info.privacy.desc': 'We do not store any banking information. All transactions are end-to-end encrypted.',
+        'info.cancel.title': '📅 Flexible Cancellation',
+        'info.cancel.desc': 'Free cancellation up to 7 days before your arrival. Full refund guaranteed.',
+        'info.support.title': '💬 Support Available',
+        'info.support.desc': 'Have a question? We are here to help you at any time before and during your stay.',
+
+        // Payment Modal
+        'modal.title': 'Complete Payment',
+        'modal.amount': 'Total amount:',
+        'modal.summary': 'Your Booking Summary',
+        'modal.dates': 'Dates:',
+        'modal.duration': 'Duration:',
+        'modal.guests': 'Guests:',
+        'modal.name': 'Name:',
+        'modal.payment.title': 'Choose your payment method',
+        'modal.revolut.title': 'Revolut.Me',
+        'modal.revolut.desc': 'Instant payment via Revolut link',
+        'modal.transfer.title': 'Bank Transfer',
+        'modal.transfer.desc': 'Direct transfer to Revolut account',
+        'modal.cta': 'Pay Now',
+
+        // Footer
+        'footer.about.title': 'About',
+        'footer.about.desc': 'A family apartment for rent to share precious moments with your loved ones.',
+        'footer.contact.title': 'Contact',
+        'footer.info.title': 'Information',
+        'footer.terms': 'Terms & Conditions',
+        'footer.privacy': 'Privacy Policy',
+        'footer.rights': '© 2025 My Apartment. All rights reserved.'
+    }
+};
+
+export default translations;
